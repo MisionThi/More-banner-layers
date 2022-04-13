@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mision_thi.morebannerlayers.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MoreBannerLayersMixin",
+    "LoomScreenHandlerMixin",
+    "LoginMixin"
+  ],
+  "client": [
+    "LoomMenuMixin"
+  ],
+  "server": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
