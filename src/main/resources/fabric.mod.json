@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "morebannerlayers",
-  "version": "1.0.0-1.18.x",
+  "version": "1.0.0-1.19",
 
   "name": "More Banner Layers",
   "description": "A mod that allows you to have more banner layers",
@@ -32,7 +32,7 @@
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.18.x",
+    "minecraft": "1.19.x",
     "java": ">=17"
   },
   "suggests": {
