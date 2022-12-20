@@ -4,15 +4,15 @@
   "package": "net.mision_thi.morebannerlayers.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "MoreBannerLayersMixin",
+    "BannerDuplicateRecipeMixin",
+    "LoginMixin",
     "LoomScreenHandlerMixin",
-    "LoginMixin"
+    "MoreBannerLayersMixin"
   ],
   "client": [
     "LoomMenuMixin"
   ],
   "server": [
-
   ],
   "injectors": {
     "defaultRequire": 1
