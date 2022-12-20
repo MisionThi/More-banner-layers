@@ -12,4 +12,9 @@ public class BannerDuplicateRecipeMixin {
     private static int getLimit(int constant) {
         return MoreBannerLayers.getLimit();
     }
+
+    @ModifyConstant(method = "craft(Lnet/minecraft/inventory/CraftingInventory;)Lnet/minecraft/item/ItemStack;", constant = @Constant(intValue = 6))
+    private static int getLimitCraft(int constant) {
+        return MoreBannerLayers.getLimit();
+    }
 }
